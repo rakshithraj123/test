@@ -20,6 +20,7 @@
 		5FB1F18DFD3599DBB5DEAC44 /* libPods-News-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DB8BF2ED6F0CB49000A2A8 /* libPods-News-tvOSTests.a */; };
 		BB95E0B0DB37928BBD8B0904 /* libPods-News.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C6B60E530D95CABC83B9D8C /* libPods-News.a */; };
 		C9230EF14A6DB6C37CFE3FCC /* libPods-News-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB58580362F81493B314FE28 /* libPods-News-tvOS.a */; };
+		CEC09F7F23E068BD0039CC18 /* Splash Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC09F7E23E068BD0039CC18 /* Splash Screen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		B523D1D7B43B30CC25677E2E /* Pods-News.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-News.release.xcconfig"; path = "Target Support Files/Pods-News/Pods-News.release.xcconfig"; sourceTree = "<group>"; };
 		B7F10542F2D7379AEF254CE2 /* Pods-NewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsTests.debug.xcconfig"; path = "Target Support Files/Pods-NewsTests/Pods-NewsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BB58580362F81493B314FE28 /* libPods-News-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-News-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC09F7E23E068BD0039CC18 /* Splash Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Splash Screen.png"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -125,6 +127,7 @@
 		13B07FAE1A68108700A75B9A /* News */ = {
 			isa = PBXGroup;
 			children = (
+				CEC09F7E23E068BD0039CC18 /* Splash Screen.png */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -161,7 +164,6 @@
 				B7F10542F2D7379AEF254CE2 /* Pods-NewsTests.debug.xcconfig */,
 				7EB1C6D48095C18B7FAD568D /* Pods-NewsTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -308,6 +310,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -338,6 +341,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				CEC09F7F23E068BD0039CC18 /* Splash Screen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

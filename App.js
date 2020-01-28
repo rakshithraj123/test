@@ -6,7 +6,8 @@
  * @flow
  */
 
-import React from 'react';
+import React, { Component } from 'react'; 
+
 import {
   SafeAreaView,
   StyleSheet,
@@ -16,6 +17,8 @@ import {
   StatusBar,
 } from 'react-native';
 
+import SplashScreen from 'react-native-splash-screen'
+
 import {
   Header,
   LearnMoreLinks,
@@ -24,7 +27,12 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-const App: () => React$Node = () => {
+//const App: () => React$Node = () => {
+class App extends Component {
+  componentDidMount() {
+    SplashScreen.hide();
+  }
+  render() {
   return (
     <>
       <StatusBar barStyle="dark-content" />
@@ -71,7 +79,7 @@ const App: () => React$Node = () => {
     </>
   );
 };
-
+};
 const styles = StyleSheet.create({
   scrollView: {
     backgroundColor: Colors.lighter,
